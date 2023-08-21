@@ -13,7 +13,7 @@ export function dayRankInfo() {
 //光荣榜
 export function pagingHonor(params) {
   return http('/lucky_king/pagingHonor', {
-    method: 'POST',
-    params: params,
+    method: 'post',
+    params,
   });
 }
